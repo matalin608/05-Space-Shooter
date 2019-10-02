@@ -10,8 +10,13 @@ logger = logging.getLogger(__name__)
 
 SCREEN_WIDTH = 800
 SCREEN_HEIGHT = 600
-SCREEN_TITLE = ""
+SCREEN_TITLE = "Space Shooter Game"
 
+NUM_ENEMIES = 5
+STARTING_LOCATION = (400, 100)
+ENEMY_HP = 100
+HIT_SCORE = 10
+KILL_SCORE = 100
 
 class Window(arcade.Window):
 
