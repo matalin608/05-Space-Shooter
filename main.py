@@ -22,21 +22,14 @@ KILL_SCORE = 100
 
 class Bullet(arcade.Sprite):
     def __init__(self, position, velocity, damage):
-        ''' 
-        initializes the bullet
-        Parameters: position: (x,y) tuple
-            velocity: (dx, dy) tuple
-            damage: int (or float)
-        '''
+       
         super().__init__("assets/beams.png", 0.5)
         (self.center_x, self.center_y) = position
         (self.dx, self.dy) = velocity
         self.damage = damage
 
     def update(self):
-        '''
-        Moves the bullet
-        '''
+        
         self.center_x += self.dx
         self.center_y += self.dy
 
