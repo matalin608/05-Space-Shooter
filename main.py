@@ -13,7 +13,7 @@ SCREEN_HEIGHT = 600
 MARGIN = 30
 SCREEN_TITLE = "Bullet exercise"
 
-NUM_ENEMIES = 5
+NUM_ENEMIES = 3
 STARTING_LOCATION = (400,100)
 BULLET_DAMAGE = 10
 ENEMY_HP = 100
@@ -70,7 +70,7 @@ class Window(arcade.Window):
         Set up enemies
         '''
         for i in range(NUM_ENEMIES):
-            x = 120 * (i+1) + 40
+            x = 180 * (i+1) + 40
             y = 500
             enemy = Enemy((x,y))
             self.enemy_list.append(enemy)            
