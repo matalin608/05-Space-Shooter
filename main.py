@@ -18,18 +18,24 @@ ENEMY_HP = 100
 HIT_SCORE = 10
 KILL_SCORE = 100
 
+class Player(arcade.Sprite):
+    def __init__(self):
+        super().__init__("assets/shipsall_3.png", 0.5)
+        (self.center_x, self.center_y) = STARTING_LOCATION
+
+
 class Window(arcade.Window):
 
     def __init__(self, width, height, title):
 
         # Call the parent class's init function
         super().__init__(width, height, title)
-
         # Make the mouse disappear when it is over the window.
         # So we just see our object, not the pointer.
         self.set_mouse_visible(False)
 
         arcade.set_background_color(open_color.black)
+        self.player = Player()
 
 
 
@@ -42,6 +48,7 @@ class Window(arcade.Window):
     def on_draw(self):
         """ Called whenever we need to draw the window. """
         arcade.start_render()
+        self.player.draw()
 
 
 
