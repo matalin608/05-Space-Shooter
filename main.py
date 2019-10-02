@@ -55,7 +55,7 @@ class Window(arcade.Window):
 
     def on_mouse_motion(self, x, y, dx, dy):
         """ Called to update our objects. Happens approximately 60 times per second."""
-        pass
+        self.player.center_x = x
 
     def on_mouse_press(self, x, y, button, modifiers):
         """
