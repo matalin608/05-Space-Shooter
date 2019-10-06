@@ -1,3 +1,1 @@
-# Project-template
-
-This is a generic Python template designed to get you started on a project for MSCH-C220. I have added a few things that will hopefully be helpful to you.
+This is a simple shooter game where the mouse moves the spaceship sprite. Clicking the mouse shoots a laser sprite onto the aliens which will disappear when you reach their "KILL_SCORE". 
