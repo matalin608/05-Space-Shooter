@@ -1,0 +1,39 @@
+Name: Mitchell Gilchrist
+Date: 10/19/19
+Project: Project 5: Space Shooter 
+
+Peer's repository: https://github.com/CaptAwesomeMG13/05-Space-Shooter.git
+
+
+What is something you learned by reviewing your peer's project?
+I learned about the how you can add more color to the sprites that are used.
+
+
+What is something you saw in your peer's project that you would like to apply to your own programming projects?
+He had a very cool color that was applied to the lasers as they were fired.
+
+
+What suggestions would you have for your peer to improve his/her code?
+Definitely try to make the enemies either fly at you or make them shoot back at you.
+ 
+
+What could have been clearer or better commented?
+The read me file could have been a little bit more fleshed out.
+
+
+Was there anything in the code that was confusing to you? If so, what?
+Nothing really confusing was added.
+
+
+Does the repository contain an appropriate LICENSE?
+Yes it does.
+
+
+What is something he/she could add to the README.md to make it more descriptive?
+Just talk more about the project but I guess the read me was very straight forward.
+
+
+Pay a compliment to your peer based on the quality of his/her code.
+I loved the sprites used for this project especially on the spaceship.
+
+
